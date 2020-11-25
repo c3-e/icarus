@@ -79,7 +79,7 @@ public abstract class AbstractSingleNodeBackupFromScratchRestoreTest extends Abs
                 null, //DatabaseEntities.parse("system_schema," + keyspaceName), // entities
                 snapshotName, // snapshot
                 "default", // k8s namespace
-                "test-sidecar-secret", // k8s secret
+                "", // k8s secret
                 true, // !!! GLOBAL REQUEST !!!
                 null, // DC is null so will backup all datacenters
                 null, // timeout
